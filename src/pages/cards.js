@@ -17,9 +17,9 @@ import sql from "public/sql.png"
 
 export default function SkillsList() {
     return (
-        <div className="bg-black rounded-lg shadow-2xl p-8">
-            <h2 className="text-white text-3xl font-bold mb-4"> <BsCode /> Skills</h2>
-            <div className="flex items-center relative space-x-4">
+        <div className="bg-black rounded-lg shadow-2xl p-8 md:max-w-2xl">
+            <h2 className="text-white text-3xl font-bold mb-4 "> <BsCode /> Skills</h2>
+            <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
                 <Image src={nodejs}
                     alt={"nodejs"}
                     height={60}
