@@ -15,7 +15,7 @@ function DownloadButton() {
     };
 
     return (
-        <button className="px-4 py-2 font-bold text-white bg-orange-500 rounded-full hover:bg-orange-700" onClick={handleDownload}>
+        <button className="px-4 py-2 font-bold text-white bg-orange-500 rounded-full hover:bg-orange-700 shadow-drop-center vibrate" onClick={handleDownload}>
             Descargar CV
         </button>
     );

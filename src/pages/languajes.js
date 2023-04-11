@@ -10,8 +10,8 @@ const user = {
 export default function Jobs(job) {
     return (
         <div className="bg-black rounded-lg shadow-2xl p-8">
-            <h2 className="text-white text-3xl font-bold mb-4"> <TbLanguageHiragana /> Languajes</h2>
-            <h3 className="text-white text-1xl font-bold mb-4">EF SET English Certificate 73/100 (C2 Proficient)</h3>
+            <h2 className="text-white text-3xl font-bold mb-4 tracking-in-expand"> <TbLanguageHiragana /> Languajes</h2>
+            <h3 className="text-white text-1xl font-bold mb-4 tracking-in-expand">EF SET English Certificate 73/100 (C2 Proficient)</h3>
             <div className='col-span-2'>
                 <div className='flex'>
                     {user.userLanguajes.map((languajes, index) => (

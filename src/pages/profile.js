@@ -2,6 +2,7 @@ import { BsGithub, BsLinkedin, BsTwitter } from 'react-icons/bs'
 import React from 'react';
 import Image from 'next/image';
 import profile from 'public/profile.jpg'
+import { motion } from 'framer-motion'
 
 const user = {
     name: 'Agustin Gattone',
@@ -19,14 +20,14 @@ export default function Profile() {
             <div className="bg-black rounded-lg shadow-2xl p-8 grid grid-cols-1 relative">
                 <div className="flex items-center relative">
                     <Image
-                        className="avatar"
+                        className="avatar scale-up-bottom"
                         src={profile}
                         alt={'Photo of ' + user.name}
                         width={90}
                         height={90}
                     />
                     <div className="absolute top-0 left-40 flex flex-col items-start">
-                        <h1 className="text-3xl font-bold">{user.name}</h1>
+                        <h1 className="text-3xl font-bold tracking-in-expand">{user.name}</h1>
                         <h2 className="text-gray-500">{user.position}</h2>
                     </div>
                 </div>

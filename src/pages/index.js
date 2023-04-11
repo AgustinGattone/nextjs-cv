@@ -4,12 +4,14 @@ import Profile from './profile'
 import Card from './cards'
 import Jobs from './jobs'
 import Languajes from './languajes'
+import ProgressBar from './api/progressBar'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <>
+    <ProgressBar />
       <div className="bg-slate-800 min-h-screen font-mono">
         <Head>
           <title>Agustin Gattone</title>

@@ -113,3 +113,21 @@ a {
 .avatar {
   border-radius: 50%;
 }
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: var(--red);
+  transform-origin: 0%;
+}
+
+
+.slide-top{animation:slide-top 0.4s linear both}@keyframes slide-top{0%{transform:translateY(0)}100%{transform:translateY(-100px)}}
+.shadow-drop-center{animation:shadow-drop-center 0.4s linear both} @keyframes shadow-drop-center{0%{box-shadow:0 0 0 0 transparent}100%{box-shadow:0 0 20px 0 rgba(255,255,255,.55)}}
+.vibrate{animation:vibrate 1.5s linear both} @keyframes vibrate{0%{transform:translate(0)}20%{transform:translate(-2px,2px)}40%{transform:translate(-2px,-2px)}60%{transform:translate(2px,2px)}80%{transform:translate(2px,-2px)}100%{transform:translate(0)}}
+.tracking-in-expand{animation:tracking-in-expand 0.4s linear both} @keyframes tracking-in-expand{0%{letter-spacing:-.2em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+.scale-up-bottom{animation:scale-up-bottom 0.4s; } @keyframes scale-up-bottom{0%{transform:scale(.5);transform-origin:center bottom}100%{transform:scale(1);transform-origin:center bottom}}
+.wobble-vertical-right{animation:wobble-vertical-right .8s linear both} @keyframes wobble-vertical-right{0%,100%{transform:translateY(0) rotate(0);transform-origin:50% 50%}15%{transform:translateY(-30px) rotate(6deg)}30%{transform:translateY(15px) rotate(-6deg)}45%{transform:translateY(-15px) rotate(3.6deg)}60%{transform:translateY(9px) rotate(-2.4deg)}75%{transform:translateY(-6px) rotate(1.2deg)}}
