@@ -2,7 +2,7 @@ import React from 'react';
 
 function DownloadButton() {
     // Enlace de descarga directa del archivo PDF
-    const pdfUrl = 'https://drive.google.com/file/d/1T8TIkUfNEEVvapmpAmbv03hNz1Sytwdy/view?usp=share_link';
+    const pdfUrl = 'https://drive.google.com/file/d/1HpQaX9tJdT8P5WkMA8bvrRaESlTdsNw_/view?usp=share_link';
 
     const handleDownload = () => {
         // Crear un enlace temporal y hacer clic en él para descargar el archivo
